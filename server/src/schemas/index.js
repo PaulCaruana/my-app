@@ -5,5 +5,5 @@ import helloWorld from './helloWorld'
 import byeWorld from './byeWorld'
 
 export default mergeSchemas({
-    schemas: [customerManager, posts]
+    schemas: [customerManager, posts, helloWorld, byeWorld]
 })
